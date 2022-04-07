@@ -7,26 +7,23 @@ The project was developed in March 2022 as a standalone project & has been licen
 
 # SubDirectories and Constraints
 ### Dependencies
-```
  - **Website:** StreamLit(front-end), Heroku(back-end), Requests Library (for sending HTTP/1.1 requests in Python)
  - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn, Pickle
-```
+
 ### Files and Folders:
-```
 - **Assets:** This folder contains the Jupyter notebook for the NLP Model, and other visual resources
 - **Data:** This folder contains the dataset used for training the model. It contains 10,000 datapoints
 - **Pickle:** This sub-directory contains the serialized python-dump. Similarity.pkl file is not included
 - **app.py:** This is the generic entry point for the python application, and contains the source code 
 - **Procfile:** This file specifies the commands that are to be executed by the Heroku app on startup
-```
 
 All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger 
 review requests, when pull requests touch these files. Github handles with commit rights made available in the 
 [~/Template Files/CODEOWNERS](https://github.com/ashwinraj-in/Kiwi/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
 # User Installation and Source Code
-The recommendation model is wrapped in a website, esigned using streamlit and is hosted on Heroku. The working demo can be found here: verticalx.herokuapp.com. 
-For users to  run the application in their local workspttions, the users must first download all resources, and requirements. To recommend  movies, the user shall  select a movie from the dropdown list, or search a movie in the list and hit the recommend button. Five movies similar to the users selection will be recommended by the application.
+The recommendation model is wrapped in a website, designed using streamlit and hosted over Heroku. The working demo can be found here: [verticalx.herokuapp.com](verticalx.herokuapp.com). 
+For users to run this application on their local workstations, the user must first download all resources, and requirements. To recommend  movies, the user shall  select a movie from the dropdown list, and hit the recommend button. 5 movies similar to the  selection will be recommended by the model.
 
 To run the streamlit application on a local computer, open the terminal, install streamlit and then type the command:
 ```
