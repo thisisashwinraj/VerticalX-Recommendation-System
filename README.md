@@ -7,15 +7,18 @@ The project was developed in March 2022 as a standalone project & has been licen
 
 # SubDirectories and Constraints
 ### Dependencies
+```
  - **Website:** StreamLit(front-end), Heroku(back-end), Requests Library (for sending HTTP/1.1 requests in Python)
  - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn, Pickle
-
+```
 ### Files and Folders:
+```
 - **Assets:** This folder contains the Jupyter notebook for the NLP Model, and other visual resources
 - **Data:** This folder contains the dataset used for training the model. It contains 10,000 datapoints
 - **Pickle:** This sub-directory contains the serialized python-dump. Similarity.pkl file is not included
 - **app.py:** This is the generic entry point for the python application, and contains the source code 
 - **Procfile:** This file specifies the commands that are to be executed by the Heroku app on startup
+```
 
 All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger 
 review requests, when pull requests touch these files. Github handles with commit rights made available in the 
