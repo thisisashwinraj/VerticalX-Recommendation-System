@@ -1,10 +1,9 @@
 # VerticalX Recommendation System
-<div style="text-align: justify">
-VerticalX is an information filtering system that uses natural language processing techniques to make content based recommendations for movies based on the users interest. 
-The project uses the TMDb dataset. The investigating Dataset contains information about 10k+ movies collected from TMDb. The project is deployed over Heroku.
 
-This project was developed in April 2022 as a standalone project and is is licensed under the GNU Affero General Public License v3.0. The web resources and pull requests are maintained by Ashwin Raj. Learn more about VerticalX recommendation systems here.
- </div>
+VerticalX is an information filtering system that uses natural language processing techniques to make content based recommendations for 10k+ movies based on the users interest. 
+The project uses the TMDb dataset. The investigating dataset contains information for over 10,000 movies collected from TMDb. The project is deployed over Heroku.
+
+This project was developed in April 2022 as a standalone project and has been licensed under GNU Affero General Public License v3.0. All pull requests are maintained by Ashwin Raj. Learn more about VerticalX recommendation system here.
 
 # SubDirectories and Constraints
 ### Dependencies
