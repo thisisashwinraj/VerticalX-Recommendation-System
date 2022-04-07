@@ -55,10 +55,10 @@ To start contributing to the project, clone the repository into your local syste
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-Before cloning the repository, make sure to navigate to the working subdirectory of your command line interface and ensure that no folder with same name exists. Other ways to clone the repository includes using a password protected SSH key or by using GitCLI. The changes may additionally be performed by opening this repo using GitHub Desktop
+Before cloning the repository, make sure to navigate to the working subdirectory of your command line interface and ensure that no folder with same name exists. Other ways to clone the repository includes using a password protected SSH key or by using Git CLI. The changes may additionally be performed by opening this repo using GitHub Desktop
 
 ### Edit the Source Code and Make Desired Changes
-To be able to make changes to the source, you may need to install and use a python IDE such as PyCharm, Microsoft VisualStudio and/or any other python interpreter. You will also require a Jupyter notebook  for working with the code snippets. The movie posters are fetched using the TMDb's API. You may create your own API by logging into TMDb developers API3. Ensure that you strictly follow the basic coding standards while making the appropriate changes
+To be able to make changes to the source, you may need to install and use a python IDE such as PyCharm, Microsoft VisualStudio and/or any other python interpreter. You will also require a Jupyter notebook  for working with the code snippets. The movies posters are fetched using the TMDb's API. You may create your own API by logging into TMDb developers API-3. Ensure that you strictly follow the basic coding standards while making the desired changes
 
 ### Submitting a Pull Request
 Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the [~/checklist](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/PULL_REQUEST_TEMPLATE) before submitting your PR.
@@ -83,7 +83,7 @@ Push all of your updated work into this GitHub repo in the form of a Pull Reques
 ```
 git push origin main
 ```
-All pull requests are reviewed on a weekly rolling basis. Your understanding is appreciate during this review process.
+All pull requests are reviewed on a monthly rolling basis. Your understanding is appreciate during this review process.
 
 # License and Project Status
 VerticalX and all of its resources are distributed under [GNU Affero General Public License v3.0](https://github.com/ashwinraj-in/VerticalX/blob/main/LICENSE). The site is compatible with all operating systems. The latest released stable version of VerticalX is v1.0.1, and is available to be used on any local/remote system for general use through the web browsers. All new releases are logged in the [~/Stable Versions](https://github.com/ashwinraj-in/Kiwi/tree/main/stableVersions)
