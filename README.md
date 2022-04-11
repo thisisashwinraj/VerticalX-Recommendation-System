@@ -29,7 +29,7 @@ To run the streamlit application on a local computer, open the terminal, install
 ```
 streamlit run app.py
 ```
-Command may take upto 30 sec before opening the streamlit app on the browser with local url: http://localhost:8501. The working demo of the application hosted over heroku may sometimes crash with connection timed out message. This is because the program exceeds Heroku's soft limit for slug size - including
+Command may take upto 30 sec before opening the streamlit app on the browser with local url: http://localhost:8501. The working demo for the application hosted over heroku may sometimes crash with connection timed out message. This is because the program exceeds Heroku's soft limit of slug size(500mb) - including
 the program and all its dependencies
 
 ### Directory Structure
