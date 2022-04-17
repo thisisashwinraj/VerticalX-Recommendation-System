@@ -1,8 +1,10 @@
+#Import required Libraries
 import streamlit as st
 import pickle
 import pandas as pd
 import requests
 
+#Hide Streamlit Menu and Default Footer
 hide_menu_style = """
 <style>
 #MainMenu  {visibility: hidden;}
@@ -11,11 +13,13 @@ footer {visibility: hidden;}
 """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
+#Fetch posters from TMDb Database
 def fetch_poster(movie_id):
-	response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=8d2beee4b9a58936c45ec0e107239142&language=en-US'.format(movie_id))
+	response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=[TMDb-API-KEY]&language=en-US'.format(movie_id))
 	data = response.json()
 	return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 
+#Recommend movies based on  content
 def recommend(movie):
 	movie_index = movies[movies['original_title'] == movie].index[0]
 	distances = similarity[movie_index]
@@ -29,6 +33,7 @@ def recommend(movie):
 		recommended_movies_poster.append(fetch_poster(movie_id))
 	return recommended_movies,recommended_movies_poster
 
+#Frontend Design for StreamLit WebApp Sidebar
 st.sidebar.subheader(" ")
 
 st.sidebar.subheader("Technology:")
@@ -42,12 +47,14 @@ movies = pd.DataFrame(movies_dict)
 
 similarity = pickle.load(open('pickle/similarity.pkl','rb'))
 
+#Frontend Hero Section
 st.title("Movie Recommender System")
 
 selected_movie_name = st.selectbox(
 'Select a movie to recommend',
 movies['original_title'].values)
 
+#Output Recommendations with Posters
 if st.button('Recommend'):
 	name, posters = recommend(selected_movie_name)
 	
