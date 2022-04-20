@@ -10,7 +10,7 @@ The project was developed in March 2022 as a standalone project & has been licen
  - **Website:** StreamLit(front-end), Heroku(back-end), Requests Library (for sending HTTP/1.1 requests in Python)
  - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn, Pickle
 
-### Files and Folders:
+### Files and Folders
 - **Assets:** This folder contains the Jupyter notebook for the NLP Model, and other visual resources
 - **Data:** This folder contains the dataset used for training the model. It contains 10,000 datapoints
 - **Pickle:** This sub-directory contains the serialized python-dump. Similarity.pkl file is not included
