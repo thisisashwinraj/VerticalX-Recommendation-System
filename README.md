@@ -3,7 +3,7 @@
 VerticalX is an information filtering system that uses Natural Language Processing techniques to make content based recommendations for 10k+ movies based on the users interest. 
 The project uses the [TMDb dataset](https://www.kaggle.com/datasets/juzershakir/tmdb-movies-dataset). The investigating dataset contains information for over 10,000 movies collected from TMDb. The project is deployed using Heroku app.
 
-The project was developed in March 2022 as a standalone project & has been licensed under the [GNU Affero General Public License v3.0](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/LICENSE). All pull requests are maintained by Ashwin. Learn about VerticalX Recommendations System [here](https://github.com/thisisashwinraj/VerticalX-Recommendation-System#user-installation-and-source-code)
+The project was developed in March 2022 as a standalone project & has been licensed under the [GNU Affero General Public License v3.0](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/LICENSE). All pull requests are maintained by Ashwin. Learn about VerticalX Recommendations System [here](https://github.com/thisisashwinraj/VerticalX-Recommendation-System#user-installation-and-source-code).
 
 # SubDirectories and Constraints
 ### Dependencies
@@ -19,7 +19,7 @@ The project was developed in March 2022 as a standalone project & has been licen
 
 All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger 
 review requests, when pull requests touch these files. Github handles with commit rights made available in the 
-[~/Template Files/CODEOWNERS](https://github.com/ashwinraj-in/Kiwi/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
+[~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
 # User Installation and Source Code
 The recommendation model is wrapped in a website, designed using streamlit and hosted over Heroku. The working demo can be found here: [verticalx.herokuapp.com](verticalx.herokuapp.com). 
