@@ -93,4 +93,4 @@ All pull requests are reviewed on a monthly rolling basis. Your understanding is
 # License and Project Status
 VerticalX and all of its resources are distributed under [GNU Affero General Public License v3.0](https://github.com/ashwinraj-in/VerticalX/blob/main/LICENSE). The site is compatible with all operating systems. The latest released stable version of VerticalX is v1.0.1, and is available to be used on any local/remote system for general use through the web browsers. All new releases are logged in the [~/Stable Versions](https://github.com/ashwinraj-in/Kiwi/tree/main/stableVersions)
 
-Upcoming updates will include more features, optimized recommendations using tf/idf and faster result predictions
+Upcoming updates will include more features, optimized recommendations using tf/idf, and faster result predictions
