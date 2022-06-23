@@ -13,7 +13,7 @@ The project was developed in March 2022 as a standalone project & has been licen
 ### Files and Folders
 - **Assets:** This directory contains Jupyter notebooks, required for building the NLP Model, & other visual resources
 - **Data:** This sub-directory contains the entire dataset used for building the model. It contains 10,000+ data points
-- **Pickle:** This directory contains the three serialized python-dump files. The similarity.pkl file is not included in this
+- **Pickle:** This directory contains the three serialized python-dump files. The similarity.pkl file, is not included in this
 - **app.py:** This file is the generic entry point for this python application, and contains the complete py source code 
 - **Procfile:** This file specifies all basic commands that are to be executed by the Heroku app during the app startup
 
@@ -88,7 +88,7 @@ Push all of your updated work into this GitHub repo in the form of a Pull Reques
 ```
 git push origin main
 ```
-All pull requests are reviewed on a monthly rolling basis. Your understanding is appreciate during this review process.
+All pull requests are reviewed on a monthly rolling basis. Your understanding is appreciated during the review process.
 
 # License and Project Status
 VerticalX and all of its resources are distributed under [GNU Affero General Public License v3.0](https://github.com/ashwinraj-in/VerticalX/blob/main/LICENSE). The site is compatible with all operating systems. The latest released stable version of VerticalX is v1.0.1, and is available to be used on any local/remote system for general use through the web browsers. All new releases are logged in the [~/Stable Versions](https://github.com/ashwinraj-in/Kiwi/tree/main/stableVersions)
