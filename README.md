@@ -80,7 +80,7 @@ git add .            // adds every single file that shows up red when running gi
 git add <filename>   // type in the particular file that you would like to add to the PR
 ```
 
-Commit all the changes that you've made, & describe in brief the changes that you have made, using this command:
+Commit all the changes that you've made and describe in brief the changes that you have made using this command:
 ```
 git commit -m "<commit_message>"
 ```
