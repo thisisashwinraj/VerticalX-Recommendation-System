@@ -11,7 +11,7 @@ The project was developed in March 2022 as a standalone project & has been licen
  - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn, Pickle
 
 ### Files and Folders
-- **Assets:** This directory contains Jupyter notebooks required for building the NLP Model, & other visual resources
+- **Assets:** This directory contains Jupyter notebooks, required for building the NLP Model, & other visual resources
 - **Data:** This sub-directory contains the entire dataset used for building the model. It contains 10,000+ data points
 - **Pickle:** This directory contains the three serialized python-dump files. The similarity.pkl file is not included in this
 - **app.py:** This file is the generic entry point for this python application, and contains the complete py source code 
