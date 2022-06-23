@@ -17,7 +17,7 @@ The project was developed in March 2022 as a standalone project & has been licen
 - **app.py:** This file is the generic entry point for this python application, and contains the complete py source code 
 - **Procfile:** This file specifies all basic commands that are to be executed by the Heroku app during the app startup
 
-All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger 
+All relevant updates, and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger 
 review requests, when pull requests touch these files. Github handles with commit rights made available in the 
 [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
