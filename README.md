@@ -11,11 +11,11 @@ The project was developed in March 2022 as a standalone project & has been licen
  - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn, Pickle
 
 ### Files and Folders
-- **Assets:** This folder contains the Jupyter notebook for the NLP Model, and other visual resources
-- **Data:** This folder contains the dataset used for training the model. It contains 10,000 datapoints
-- **Pickle:** This sub-directory contains the serialized python-dump. Similarity.pkl file is not included
-- **app.py:** This is the generic entry point for the python application, and contains the source code 
-- **Procfile:** This file specifies the commands that are to be executed by the Heroku app on startup
+- **Assets:** This directory contains Jupyter notebooks required for building the NLP Model, & other visual resources
+- **Data:** This sub-directory contains the entire dataset used for building the model. It contains 10,000+ data points
+- **Pickle:** This directory contains the three serialized python-dump files. The similarity.pkl file is not included in this
+- **app.py:** This file is the generic entry point for this python application, and contains the complete py source code 
+- **Procfile:** This file specifies all basic commands that are to be executed by the Heroku app during the app startup
 
 All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger 
 review requests, when pull requests touch these files. Github handles with commit rights made available in the 
