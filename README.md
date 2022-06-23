@@ -7,8 +7,8 @@ The project was developed in March 2022 as a standalone project & has been licen
 
 # SubDirectories and Constraints
 ### Dependencies
- - **Website:** StreamLit(front-end), Heroku(back-end), Requests Library (for sending HTTP/1.1 requests in Python)
- - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn, Pickle
+ - **Website:** StreamLit(front-end), Heroku(back-end) and Requests Library (for sending HTTP/1.1 request in Python)
+ - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn and Pickle
 
 ### Files and Folders
 - **Assets:** This directory contains Jupyter notebooks, required for building the NLP Model, & other visual resources
