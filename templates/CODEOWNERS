@@ -10,7 +10,7 @@
 
 # Each line is a file pattern followed by one or more owners.
 
-templates/CODEOWNERS  @thisashwinraj
+templates/CODEOWNERS  @thisisashwinraj
 
 # Build related files
 pickle  @thisisashwinraj
