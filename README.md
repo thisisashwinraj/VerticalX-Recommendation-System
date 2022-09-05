@@ -33,7 +33,7 @@ Command may take upto 30 sec before opening the streamlit app on the browser wit
 
 ![Demo](https://github.com/ashwinraj-in/VerticalX-Recommendation-System/blob/main/assets/VerticalX_Demo.gif)
 
-The working demo for the application hosted over heroku may sometimes crash with connection timed out message. This is because the program exceeds Heroku's soft limit for slug size including
+The working demo for the application hosted over heroku may sometimes crash with connection timed out message. This is because the program exceeds [Heroku's soft limit for slug size](https://devcenter.heroku.com/articles/slug-compiler#:~:text=The%20maximum%20allowed%20slug%20size,such%20as%20ls%20and%20du%20.) including
 the program, and all it's dependencies.
 
 ### Directory Structure
