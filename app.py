@@ -15,7 +15,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 #Fetch posters from TMDb Database
 def fetch_poster(movie_id):
-	response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=[TMDb-API-KEY]&language=en-US'.format(movie_id))
+	response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=8d2beee4b9a58936c45ec0e107239142&language=en-US'.format(movie_id))
 	data = response.json()
 	return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 
