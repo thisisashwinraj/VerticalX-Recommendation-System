@@ -58,7 +58,7 @@ To run the application, first download the required resources, or clone this rep
 # Contribution Guidelines
 To start contributing to the project, clone the repository into your local system subdirectory using the below git code:
 ```
-git clone https://github.com/ashwinraj-in/Kiwi.git
+https://github.com/thisisashwinraj/VerticalX-Recommendation-System.git
 ```
 Before cloning the repository, make sure to navigate to the working subdirectory of your command line interface and ensure that no folder with same name exists. Other ways to clone the repository includes using a password protected SSH key, or by using Git CLI. The changes may additionally be performed by opening this repo using GitHub Desktop
 
