@@ -27,10 +27,12 @@ def recommend(movie):
 
 	recommended_movies = []
 	recommended_movies_poster = []
+	
 	for  i in movies_list:
 		movie_id = movies.iloc[i[0]].id
 		recommended_movies.append(movies.iloc[i[0]].original_title)
 		recommended_movies_poster.append(fetch_poster(movie_id))
+		
 	return recommended_movies,recommended_movies_poster
 
 #Frontend Design for StreamLit WebApp Sidebar
