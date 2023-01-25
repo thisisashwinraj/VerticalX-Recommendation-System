@@ -23,8 +23,8 @@ review requests, when pull requests touch these files. Github handles with commi
 [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/templates/CODEOWNERS) are responsible for reviewing such changes
 
 # User Installation and Source Code
-The recommendation model is wrapped in a website, designed using streamlit and hosted over Heroku. The working demo can be found here: [verticalx.herokuapp.com](verticalx.herokuapp.com). 
-For the user to run this application on their local workstation, the user must first download all resources, and requirements. To recommend  movies, the users shall  select a movie from the dropdown list, and hit the recommend button. 5 similar movie selections will be recommended by the ml model.
+The recommendation model is wrapped in a website, designed using streamlit and hosted over Heroku. The working demo can be found here: [verticalx.azurewebsites.net](https://verticalx.azurewebsites.net/). 
+For a user to run this application on their local workstation, the user must first download all resources, and requirements. To recommend  movies, the users shall  select a movie from the dropdown list, and hit the recommend button. 5 similar movie selections will be recommended by the ml model.
 
 To run the streamlit application on a local computer, open the terminal, install streamlit and then type the command:
 ```
