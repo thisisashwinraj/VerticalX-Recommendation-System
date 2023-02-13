@@ -92,6 +92,4 @@ git push origin main
 All pull requests are reviewed on a monthly rolling basis. Your understanding is appreciated during the review process
 
 # License and Project Status
-VerticalX and all of its resources are distributed under [GNU Affero General Public License v3.0](https://github.com/ashwinraj-in/VerticalX/blob/main/LICENSE). The site is compatible with all operating systems. The latest released stable version of VerticalX is v1.0.1, and is available to be used on any local/remote system for general use through the web browsers. All new releases are logged in the [~/Stable Versions](https://github.com/ashwinraj-in/Kiwi/tree/main/stableVersions)
-
-Upcoming updates will include more features, optimized recommendations using tf/idf, and faster result predictions
+VerticalX and all of its resources are distributed under [GNU Affero General Public License v3.0](https://github.com/ashwinraj-in/VerticalX/blob/main/LICENSE). The site is compatible with all operating systems. The latest released version of VerticalX webapp is v1.0.1, and is available to be used on any local/remote system for general use through the web browsers. All new releases are logged in the [~/Stable Versions](https://github.com/ashwinraj-in/Kiwi/tree/main/stableVersions)
