@@ -67,7 +67,7 @@ Before cloning the repository, make sure to navigate to the working subdirectory
 To be able to make changes to the source, you may need to install and use a python IDE such as PyCharm, Microsoft VisualStudio and/or any other python interpreter. You will also require a Jupyter notebook  for working with the code snippets. The movies posters are fetched using the [TMDb's API](https://developers.themoviedb.org/3). You may create your own API by logging into TMDb developers API-3. Ensure that you are strictly following the basic coding standards, while making the desired change
 
 ### Submitting a Pull Request
-Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the [~/checklist](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/tree/main/Template%20Files/PULL_REQUEST_TEMPLATE) before submitting your PR.
+Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the [~/checklist](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/tree/main/Template%20Files/checklist) before submitting your PR.
 
 Navigate to this subdirectory & check status of all files that were altered (red) by running the below code in Git Bash:
 ```
