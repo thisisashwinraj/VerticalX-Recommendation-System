@@ -3,6 +3,7 @@
 
 VerticalX is an information filtering system, that uses Natural Language Processing techniques to make content based recommendations for 10k+ movies based as per user's interest. 
 The project uses the [TMDb dataset](https://www.kaggle.com/datasets/juzershakir/tmdb-movies-dataset). The investigating dataset contains information for over 10,000+ movies collected from TMDb. This project is deployed using [StreamLit](https://tinyurl.com/verticalx-recommender-system).
+Interested in building your very own movie recommendation system? Checkout the blog here.
 
 The project was developed in March 2022 as a standalone project & has been licensed under the [GNU Affero General Public License v3.0](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/LICENSE). All Pull Requests are maintained by [Ashwin](https://github.com/thisisashwinraj). Learn about VerticalX Recommendations System [here](https://github.com/thisisashwinraj/VerticalX-Recommendation-System#user-installation-and-source-code)
 
