@@ -9,6 +9,7 @@ Looking to get started with building a movie recommendation system? Look no furt
 The project was developed in March 2022 as a standalone project & has been licensed under the [GNU Affero General Public License v3.0](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/LICENSE). All Pull Requests are maintained by [Ashwin](https://github.com/thisisashwinraj). Learn about VerticalX Recommendations System [here](https://github.com/thisisashwinraj/VerticalX-Recommendation-System#user-installation-and-source-code)
 
 # SubDirectories and Constraints
+
 ### Dependencies
  - **Website:** StreamLit(front-end), Azure app service and Requests Library (for sending HTTP/1.1 requests in Python)
  - **Machine Learning Model:** Pandas, NumPy, Matplotlib, Seaborn, Natural Language Toolkit, Scikit-Learn and Pickle
