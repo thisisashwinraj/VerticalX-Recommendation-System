@@ -45,6 +45,7 @@ import streamlit as st  # Import Streamlit library for building web applications
 import pickle  # Import pickle to serialize and deserialize Python objects
 import requests  # Import requests library for making HTTP requests
 import pandas as pd  # Import pandas library for data manipulation and analysis
+from azure.storage.blob import BlobServiceClient
 
 import re  # Import regular expression library for text processing
 import json  # Import JSON library for working with the OMDB JSON data
@@ -52,6 +53,7 @@ import time  # Import time library for adding delays and sleeping time
 
 from model import send_mail  # Import send_mail function from ~/model
 from config import api_credentials  # Importing API credentials from ~/config
+from config import azure_credentials  # Importing Azure credentials from ~/config
 
 from sumy.nlp.tokenizers import Tokenizer  # Import Tokenizer to tokenize text
 from sumy.parsers.plaintext import PlaintextParser  # Import PlaintextParser for parsing
@@ -127,6 +129,27 @@ def apply_style_to_sidebar_button(file_name):
 
 # Call the apply_style_to_sidebar_button function with location of the CSS file
 apply_style_to_sidebar_button("assets/style.css")
+
+
+def load_pickle_from_azure(pickle_file_name):
+    connection_string = azure_credentials.AZURE_CONNECTION_STRING
+    container_name = azure_credentials.AZURE_CONTAINER_NAME
+
+    blob_service_client = BlobServiceClient.from_connection_string(connection_string)
+    
+    # Get a reference to the container where your pickle file is stored
+    container_client = blob_service_client.get_container_client(container_name)
+    
+    # Get a reference to the pickle file
+    blob_client = container_client.get_blob_client(pickle_file_name)
+    
+    # Download the pickle file as a bytes object
+    blob_data = blob_client.download_blob().readall()
+    
+    # Load the pickle file in rb (read-binary) mode
+    pickle_data = pickle.loads(blob_data, encoding='latin1', fix_imports=True)
+    
+    return pickle_data
 
 
 def fetch_movie_poster(movie_id):
@@ -610,10 +633,6 @@ def about_silverspace_page():
         newsletter_subscribed_alert.empty()
 
 
-import time
-import send_mail
-
-
 def send_bug_report_page():
     """
     [SilverSpace Web App] (Page 03/03) - Send bug report to the silverspace dev team
@@ -747,21 +766,21 @@ def send_bug_report_page():
 
 try:
     # Try to load the movies dictionary from the pickle dump using pickle module
-    movies_dict = pickle.load(open("pickle/movie_dict_bkp.pkl", "rb"))
+    movies_dict = load_pickle_from_azure("movie_dict_bkp.pkl")
 
 except:
     # If file is not found or there's an error, display the error status message
-    st.error("The web app is down")
+    st.error("The web app is down 1")
 
 # Convert the movies dictionary into a pandas dataframe
 movies = pd.DataFrame(movies_dict)
 
 try:
     # Try to load the similarity matrix from the pickle dump using pickle module
-    similarity = pickle.load(open("pickle/similarity_bkp.pkl", "rb"))
+    similarity = load_pickle_from_azure("similarity_bkp.pkl")
 except:
     # If file is not found or there's an error, display the error status message
-    st.error("The web app is down")
+    st.error("The web app is down 2")
 
 # Create a dictionary of different pages of the web app along with the functions
 page_list = {
