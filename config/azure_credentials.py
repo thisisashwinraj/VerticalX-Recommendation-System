@@ -1,9 +1,9 @@
-"""
 import streamlit
 
 AZURE_CONNECTION_STRING = streamlit.secrets["AZURE_CONNECTION_STRING"]
 AZURE_CONTAINER_NAME = streamlit.secrets["AZURE_CONTAINER_NAME"]
-"""
 
+"""
 AZURE_CONNECTION_STRING = os.environ["AZURE_CONNECTION_STRING"]
 AZURE_CONTAINER_NAME = os.environ["AZURE_CONTAINER_NAME"]
+"""
