@@ -94,7 +94,6 @@ importlib-metadata==6.0.0
 inflection==0.5.1
 isodate==0.6.1
 itsdangerous==2.1.2
-jax==0.4.8
 Jinja2==3.1.2
 joblib==1.2.0
 jsonschema==4.17.3
