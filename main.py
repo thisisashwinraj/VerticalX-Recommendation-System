@@ -770,7 +770,8 @@ try:
 
 except:
     # If file is not found or there's an error, display the error status message
-    st.error("The web app is down 1")
+    st.warning("The web app is unavailable at the moment", icon="⚠️")
+    st.stop()
 
 # Convert the movies dictionary into a pandas dataframe
 movies = pd.DataFrame(movies_dict)
@@ -780,7 +781,8 @@ try:
     similarity = load_pickle_from_azure("similarity_bkp.pkl")
 except:
     # If file is not found or there's an error, display the error status message
-    st.error("The web app is down 2")
+    st.warning("The web app is unavailable at the moment", icon="⚠️")
+    st.stop()
 
 # Create a dictionary of different pages of the web app along with the functions
 page_list = {
