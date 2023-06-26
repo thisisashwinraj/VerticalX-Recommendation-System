@@ -1,10 +1,10 @@
 ![VerticalX Banner](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/assets/VerticalX_Banner_Light.png#gh-light-mode-only)
 ![VerticalX Banner](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/assets/VerticalX_Banner_Dark.png#gh-dark-mode-only)
 
-VerticalX is an information filtering system, that uses Natural Language Processing techniques to make content based recommendations for 10k+ movies based as per user's interest. 
+VerticalX is an information filtering system, that uses Natural Language Processing techniques to make content-based recommendations for 10k+ movies based on the user's interest. 
 The project uses the [TMDb dataset](https://www.kaggle.com/datasets/juzershakir/tmdb-movies-dataset). The investigating dataset contains information for over 10,000+ movies collected from TMDb. This project is deployed using [StreamLit](https://tinyurl.com/verticalx-recommender-system).
 
-Looking to get started with building a movie recommendation system? Look no further. Check out this medium blog by Ashwin Raj. With step-by-step instructions, and easy-to-follow code examples, this article covers everything you'll need to be well on your way to building your very first recommendation system. Download the pdf version from here
+Looking to get started with building a movie recommendation system? Look no further. Check out this [medium blog](https://ai.plainenglish.io/end-toend-tutorial-to-build-a-movie-recommendation-system-using-python-and-azure-cc6e640e0aab) by Ashwin Raj. With step-by-step instructions, and easy-to-follow code examples, this article covers everything you'll need to be well on your way to building your very first recommendation system. Download the pdf version from here
 
 The project was developed in March 2022 as a standalone project & has been licensed under the [GNU Affero General Public License v3.0](https://github.com/thisisashwinraj/VerticalX-Recommendation-System/blob/main/LICENSE). All Pull Requests are maintained by [Ashwin](https://github.com/thisisashwinraj). Learn about VerticalX Recommendations System [here](https://github.com/thisisashwinraj/VerticalX-Recommendation-System#user-installation-and-source-code)
 
